@@ -1,0 +1,25 @@
+{
+  "name": "google-trend-ranker",
+  "version": "0.0.1",
+  "description": "Script for ranking google trend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mahdanahmad/google-trend-ranker.git"
+  },
+  "author": "Mahdan Ahmad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mahdanahmad/google-trend-ranker/issues"
+  },
+  "homepage": "https://github.com/mahdanahmad/google-trend-ranker#readme",
+  "dependencies": {
+    "google-trends-api": "^4.3.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1"
+  }
+}
